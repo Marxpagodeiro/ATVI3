@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Bruno
  */
-public class Atividade3marcos {
+public class Atividade3.1 {
 
     public static void main(String[] args) {
       String usuario = frase("Qual a frase você deseja ver grande?");
