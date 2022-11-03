@@ -87,145 +87,116 @@ public class Atividade3marcos {
         return letraF;
     }
     public static char[][] letraG(){
-        char [][] resp = new char[5][];
         char[][]letraG = {{'G','G','G','G','G'},
                           {'G',' ',' ',' ',' '},
                           {'G',' ',' ','G','G'},
                           {'G',' ',' ',' ','G'},
                           {'G','G','G','G','G'}};
-           resp = letraG;
-           return resp;
+        return letraG;
     }
     public static char[][] letraH(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'H',' ',' ',' ','H'},
+        char[][]letraH = {{'H',' ',' ',' ','H'},
                           {'H',' ',' ',' ','H'},
                           {'H','H','H','H','H'},
                           {'H',' ',' ',' ','H'},
                           {'H',' ',' ',' ','H'}};
-           resp = letraG;
-           return resp;
+        return letraH;
     }
     public static char[][] letraI(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{' ','I','I','I',' '},
+        char[][]letraI = {{' ','I','I','I',' '},
                           {' ',' ','I',' ',' '},
                           {' ',' ','I',' ',' '},
                           {' ',' ','I',' ',' '},
                           {' ','I','I','I',' '}};
-           resp = letraG;
-           return resp;
+        return letraI;
     }
     public static char[][] letraJ(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{' ',' ','J','J','J'},
+        char[][]letraJ = {{' ',' ','J','J','J'},
                           {' ',' ',' ','J',' '},
                           {' ',' ',' ','J',' '},
                           {'J',' ',' ','J',' '},
                           {'J','J','J','J',' '}};
-           resp = letraG;
-           return resp;
+        return letraJ;
     }
     public static char[][] letraK(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'K',' ',' ',' ','K'},
+        char[][]letraK = {{'K',' ',' ',' ','K'},
                           {'K',' ',' ','K',' '},
                           {'K','K','K',' ',' '},
                           {'K',' ',' ','K',' '},
                           {'K',' ',' ',' ','K'}};
-           resp = letraG;
-           return resp;
+           return letraK;
     }
     public static char[][] letraL(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'L',' ',' ',' ',' '},
+        char[][]letraL = {{'L',' ',' ',' ',' '},
                           {'L',' ',' ',' ',' '},
                           {'L',' ',' ',' ',' '},
                           {'L',' ',' ',' ',' '},
                           {'L','L','L','L','L'}};  
-        resp = letraG;
-        return resp;
+        return letraL;
     }
     public static char[][] letraM(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'M','M',' ','M','M'},
+        char[][]letraM = {{'M','M',' ','M','M'},
                           {'M','M','M','M','M'},
                           {'M',' ','M',' ','M'},
                           {'M',' ',' ',' ','M'},
                           {'M',' ',' ',' ','M'}};  
-        resp = letraG;
-        return resp;
+        return letraM;
     }
     public static char[][] letraN(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'N',' ',' ',' ','N'},
+        char[][]letraN = {{'N',' ',' ',' ','N'},
                           {'N','N',' ',' ','N'},
                           {'N',' ','N',' ','N'},
                           {'N',' ',' ','N','N'},
-                          {'N',' ',' ',' ','N'}
-                          };  
-        resp = letraG;
-        return resp;
+                          {'N',' ',' ',' ','N'}};  
+        return letraN;
     }
     public static char[][] letraO(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{' ','O','O','O',' '},
+        char[][]letraO = {{' ','O','O','O',' '},
                           {'O',' ',' ',' ','O'},
                           {'O',' ',' ',' ','O'},
                           {'O',' ',' ',' ','O'},
                           {' ','O','O','O',' '}}; 
-        resp = letraG;
-        return resp;
+        return letraO;
     }
     public static char[][] letraP(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'P','P','P','P',' '},
+       char[][]letraP = {{'P','P','P','P',' '},
                           {'P',' ',' ',' ','P'},
                           {'P','P','P','P',' '},
                           {'P',' ',' ',' ',' '},
                           {'P',' ',' ',' ',' '}};
-        resp = letraG;
-        return resp;
+        return letraP;
     }
     public static char[][] letraQ(){
-        char [][] resp = new char[5][];
         char[][]letraG = {{'Q','Q','Q','Q','Q'},
                           {'Q',' ',' ',' ','Q'},
                           {'Q',' ',' ',' ','Q'},
                           {'Q','Q','Q','Q','Q'},
                           {' ',' ',' ',' ','Q'}};
-        resp = letraG;
-        return resp;
+        return letraG;
     }
     public static char[][] letraR(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'R','R','R','R',' '},
-                          {'R',' ',' ',' ','R'},
-                          {'R','R','R','R',' '},
-                          {'R','R',' ',' ',' '},
-                          {'R',' ','R',' ',' '}};
-        resp = letraG;
-        return resp;
+        char[][]letraR = {{'R','R','R',' ',' '},
+                          {'R',' ',' ','R',' '},
+                          {'R','R','R',' ',' '},
+                          {'R',' ','R',' ',' '},
+                          {'R',' ',' ','R',' '}};
+        return letraR;
     }
     public static char[][] letraS(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'S','S','S','S','S'},
+        char[][]letraS = {{'S','S','S','S','S'},
                           {'S',' ',' ',' ' ,' '},
                           {'S','S','S','S','S'},
                           {' ',' ',' ',' ','S'},
                           {'S','S','S','S','S'}};
-        resp = letraG;
-        return resp;
+        return letraS;
     }
     public static char[][] letraT(){
-        char [][] resp = new char[5][];
-        char[][]letraG = {{'T','T','T','T','T'},
+        char[][]letraT = {{'T','T','T','T','T'},
                           {' ',' ','T',' ',' '},
                           {' ',' ','T',' ',' '},
                           {' ',' ','T',' ',' '},
                           {' ',' ','T',' ',' '}};
-        resp = letraG;
-        return resp;
+        return letraT;
     }
     public static char[][] letraU(){
         char[][]letraU = {{'U',' ',' ',' ','U'},
