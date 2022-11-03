@@ -29,7 +29,57 @@ public class Atividade3marcos {
            System.out.println(tmn); // Imprime o tamanho
                 
         for(int i = 0;i<letra.length;i++){ // repete até terminar todas as letras
-           // System.out.print (letra[i]+"-"); // Separa todas as letras assim: A-R-R-O-Z
+           if(letra[i]=='A'){
+               letraA();
+           }else if(letra[i]=='B'){
+               letraB();
+           }else if(letra[i]=='C'){
+               letraC();
+           }else if(letra[i]=='D'){
+               letraD();
+           }else if(letra[i]=='E'){
+               letraE();
+           }else if(letra[i]=='F'){
+               letraF();
+           }else if(letra[i]=='G'){
+               letraG();
+           }else if(letra[i]=='H'){
+               letraH();
+           }else if(letra[i]=='I'){
+               letraI();
+           }else if(letra[i]=='J'){
+               letraJ();
+           }else if(letra[i]=='K'){
+               letraK();
+           }else if(letra[i]=='L'){
+               letraL();
+           }else if(letra[i]=='M'){
+               letraM();
+           }else if(letra[i]=='N'){
+               letraN();
+           }else if(letra[i]=='P'){
+               letraP();
+           }else if(letra[i]=='Q'){
+               letraQ();
+           }else if(letra[i]=='R'){
+               letraR();
+           }else if(letra[i]=='S'){
+               letraS();
+           }else if(letra[i]=='T'){
+               letraT();
+           }else if(letra[i]=='U'){
+               letraU();
+           }else if(letra[i]=='V'){
+               letraV();
+           }else if(letra[i]=='W'){
+               letraW();
+           }else if(letra[i]=='X'){
+               letraX();
+           }else if(letra[i]=='Y'){
+               letraY();
+           }else if(letra[i]=='Z'){
+               letraZ();
+           }
         }
        
     }
