@@ -12,182 +12,270 @@ import java.util.Scanner;
  * @author Bruno
  */
 public class Atividade3marcos {
+ public static void main(String[] args) {
+        Scanner in = new Scanner (System.in); // Importação do Scanner
+        
+        String f1 = "Digite uma palavra para ficar gigante:";
+        String palavra; // Criei a string palavra sem definir o valor da mesma
+        
+        System.out.println(f1); // Pede para o usuário digitar uma frase
+        palavra = in.nextLine().toUpperCase(); // O que o usuário digitar vai renomear a String "Palavra", e o ".toUpperCase()" vai deixar todas as letras maiúsculas
+        System.out.println(" "); // Espaço para não embolar com as letras gigantes
+        
+        char[] letra = palavra.toCharArray();//converte String para char
+        
+        int tmn =letra.length * 5; // O int TMN é o tamanho da frase/palavra
+        int tam=letra.length;    
+           System.out.println(tmn); // Imprime o tamanho
+                
+        for(int i = 0;i<letra.length;i++){ // repete até terminar todas as letras
+           // System.out.print (letra[i]+"-"); // Separa todas as letras assim: A-R-R-O-Z
+        }
+       
+    }
+   
+     
+    
+    
 
-    public static void main(String[] args) {
-      String usuario = frase("Qual a frase você deseja ver grande?");
-      System.out.println(usuario);
-      char[] letra = usuario.toCharArray();// char de converção da frase de String para char.
-      int Ta =letra.length;
-      System.out.println(Ta);
-      char[][] letraG = letraG(letra);
-      for(int i=0;i<=5;i++){
-          System.out.println(letraG[i]);
-      }
-      
-      for(int i =0;i<letra.length;i++){
-          System.out.print(letra[i]+"-");
-      }
-        
+    public static char[][] letraA(){
+        char[][]letraA = {{' ',' ','A',' ',' '},
+                          {' ','A',' ','A',' '},
+                          {'A','A','A','A','A'},
+                          {'A',' ',' ',' ','A'},
+                          {'A',' ',' ',' ','A'}};
+        return letraA;
+        }
+    public static char[][] letraB(){
+        char[][]letraB = {{'B','B','B','B',' '},
+                         {'B',' ',' ',' ','B'},
+                         {'B','B','B','B','B'},
+                         {'B',' ',' ',' ','B'},
+                         {'B','B','B','B',' '}};
+        return letraB;
     }
-    public static String frase(String texto){
-        Scanner in = new Scanner(System.in);
-        String resp;
-        System.out.println(texto);
-        resp=in.nextLine();
+    public static char[][] letraC(){
+        char[][]letraC ={{'C','C','C','C','C'},
+                         {'C',' ',' ',' ',' '},
+                         {'C',' ',' ',' ',' '},
+                         {'C',' ',' ',' ',' '},
+                         {'C','C','C','C','C'}};
+        return letraC;
+    }
+    public static char[][] letraD(){
+        char[][]letraD = {{'D','D','D','D',' '},
+                          {'D',' ',' ',' ','D'},
+                          {'D',' ',' ',' ','D'},
+                          {'D',' ',' ',' ','D'},
+                          {'D','D','D','D',' '}};
+        return letraD;
+    }
+    public static char[][] letraE(){
+        char[][]letraE = {{'E','E','E','E','E'},
+                          {'E',' ',' ',' ',' '},
+                          {'E','E','E','E','E'},
+                          {'E',' ',' ',' ',' '},
+                          {'E','E','E','E','E'}};
+        return letraE;
+    }
+    public static char[][] letraF(){
+        char[][]letraF = {{'F','F','F','F','F'},
+                          {'F',' ',' ',' ',' '},
+                          {'F','F','F','F',' '},
+                          {'F',' ',' ',' ',' '},
+                          {'F',' ',' ',' ',' '}};
+        return letraF;
+    }
+    public static char[][] letraG(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'G','G','G','G','G'},
+                          {'G',' ',' ',' ',' '},
+                          {'G',' ',' ','G','G'},
+                          {'G',' ',' ',' ','G'},
+                          {'G','G','G','G','G'}};
+           resp = letraG;
+           return resp;
+    }
+    public static char[][] letraH(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'H',' ',' ',' ','H'},
+                          {'H',' ',' ',' ','H'},
+                          {'H','H','H','H','H'},
+                          {'H',' ',' ',' ','H'},
+                          {'H',' ',' ',' ','H'}};
+           resp = letraG;
+           return resp;
+    }
+    public static char[][] letraI(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{' ','I','I','I',' '},
+                          {' ',' ','I',' ',' '},
+                          {' ',' ','I',' ',' '},
+                          {' ',' ','I',' ',' '},
+                          {' ','I','I','I',' '}};
+           resp = letraG;
+           return resp;
+    }
+    public static char[][] letraJ(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{' ',' ','J','J','J'},
+                          {' ',' ',' ','J',' '},
+                          {' ',' ',' ','J',' '},
+                          {'J',' ',' ','J',' '},
+                          {'J','J','J','J',' '}};
+           resp = letraG;
+           return resp;
+    }
+    public static char[][] letraK(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'K',' ',' ',' ','K'},
+                          {'K',' ',' ','K',' '},
+                          {'K','K','K',' ',' '},
+                          {'K',' ',' ','K',' '},
+                          {'K',' ',' ',' ','K'}};
+           resp = letraG;
+           return resp;
+    }
+    public static char[][] letraL(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'L',' ',' ',' ',' '},
+                          {'L',' ',' ',' ',' '},
+                          {'L',' ',' ',' ',' '},
+                          {'L',' ',' ',' ',' '},
+                          {'L','L','L','L','L'}};  
+        resp = letraG;
         return resp;
     }
-    public static char[][] letraG(char[] letra){
-        char [][] resp = new char[5][5];
-        for(int i=0;i<letra.length;i++){
-        if(letra[i] == 'A'){
-           char[][]letraG = {{' ',' ','A',' ',' ',},
-                              {' ','A',' ','A',' ',},
-                              {'A','A','A','A','A'},
-                              {'A',' ',' ',' ','A'},
-                              {'A',' ',' ',' ','A'}
-                              };
-           resp = letraG;
-        }
-        if(letra[i] == 'B'){
-           char[][] letraG = {{'B','B','B','B','B',},
-                              {'B',' ',' ',' ','B',},
-                              {'B','B','B','B','B'},
-                              {'B',' ',' ',' ','B'},
-                              {'B','B','B','B','B'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'C'){
-           char[][] letraG = {{'C','C','C','C','C',},
-                              {'C',' ',' ',' ',' ',},
-                              {'C',' ',' ',' ',' '},
-                              {'C',' ',' ',' ',' '},
-                              {'C','C','C','C','C'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'D'){
-           char[][] letraG = {{'D','D','D','D','D',},
-                              {'D',' ',' ',' ','D',},
-                              {'D',' ',' ',' ','D'},
-                              {'D',' ',' ',' ','D'},
-                              {'D','D','D','D','D'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'E'){
-           char[][] letraG = {{'E','E','E','E','E',},
-                              {'E',' ',' ',' ',' ',},
-                              {'E','E','E','E','E'},
-                              {'E',' ',' ',' ',' '},
-                              {'E','E','E','E','E'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'F'){
-           char[][] letraG = {{'F','F','F','F','F',},
-                              {'F',' ',' ',' ',' ',},
-                              {'F','F','F','F',' '},
-                              {'F',' ',' ',' ',' '},
-                              {'F',' ',' ',' ',' '}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'G'){
-           char[][] letraG = {{'G','G','G','G','G',},
-                              {'G',' ',' ',' ',' ',},
-                              {'G',' ',' ','G','G'},
-                              {'G',' ',' ',' ','G'},
-                              {'G','G','G','G','G'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'H'){
-           char[][] letraG = {{'H',' ',' ',' ','H',},
-                              {'H',' ',' ',' ','H',},
-                              {'H','H','H','H','H'},
-                              {'H',' ',' ',' ','H'},
-                              {'H',' ',' ',' ','H'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'I'){
-           char[][] letraG = {{' ','I','I','I',' ',},
-                              {' ',' ','I',' ',' ',},
-                              {' ',' ','I',' ',' '},
-                              {' ',' ','I',' ',' '},
-                              {' ','I','I','I',' '}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'J'){
-           char[][] letraG = {{' ',' ','J','J','J',},
-                              {' ',' ',' ','J',' ',},
-                              {' ',' ',' ','J',' '},
-                              {'J',' ',' ','J',' '},
-                              {'J','J','J','J',' '}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'K'){
-           char[][] letraG = {{'K',' ',' ',' ','K',},
-                              {'K',' ',' ','K',' ',},
-                              {'K','K','K',' ',' '},
-                              {'K',' ',' ','K',' '},
-                              {'K',' ',' ',' ','K'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'L'){
-           char[][] letraG = {{'L',' ',' ',' ',' ',},
-                              {'L',' ',' ',' ',' ',},
-                              {'L',' ',' ',' ',' '},
-                              {'L',' ',' ',' ',' '},
-                              {'L','L','L','L','L'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'M'){
-           char[][] letraG = {{'M','M',' ','M','M',},
-                              {'M','M','M','M','M',},
-                              {'M',' ','M',' ','M'},
-                              {'M',' ',' ',' ','M'},
-                              {'M',' ',' ',' ','M'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'N'){
-           char[][] letraG = {{'N',' ',' ',' ','N',},
-                              {'N','N',' ',' ','N',},
-                              {'N',' ','N',' ','N'},
-                              {'N',' ',' ','N','N'},
-                              {'N',' ',' ',' ','N'}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'O'){
-           char[][] letraG = {{' ','O','O','O',' ',},
-                              {'O',' ',' ',' ','O',},
-                              {'O',' ',' ',' ','O'},
-                              {'O',' ',' ',' ','O'},
-                              {' ','O','O','O',' '}
-                             };
-           resp = letraG;
-        }
-        if(letra[i] == 'P'){
-           char[][] letraG = {{'P','P','P','P',' ',},
-                              {'P',' ',' ',' ','P',},
-                              {'P','P','P','P',' '},
-                              {'P',' ',' ',' ',' '},
-                              {'P',' ',' ',' ',' '}
-                             };
-           resp = letraG;
-        }
-        
-        
-        }
-        
+    public static char[][] letraM(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'M','M',' ','M','M'},
+                          {'M','M','M','M','M'},
+                          {'M',' ','M',' ','M'},
+                          {'M',' ',' ',' ','M'},
+                          {'M',' ',' ',' ','M'}};  
+        resp = letraG;
         return resp;
-        
     }
+    public static char[][] letraN(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'N',' ',' ',' ','N'},
+                          {'N','N',' ',' ','N'},
+                          {'N',' ','N',' ','N'},
+                          {'N',' ',' ','N','N'},
+                          {'N',' ',' ',' ','N'}
+                          };  
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraO(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{' ','O','O','O',' '},
+                          {'O',' ',' ',' ','O'},
+                          {'O',' ',' ',' ','O'},
+                          {'O',' ',' ',' ','O'},
+                          {' ','O','O','O',' '}}; 
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraP(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'P','P','P','P',' '},
+                          {'P',' ',' ',' ','P'},
+                          {'P','P','P','P',' '},
+                          {'P',' ',' ',' ',' '},
+                          {'P',' ',' ',' ',' '}};
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraQ(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'Q','Q','Q','Q','Q'},
+                          {'Q',' ',' ',' ','Q'},
+                          {'Q',' ',' ',' ','Q'},
+                          {'Q','Q','Q','Q','Q'},
+                          {' ',' ',' ',' ','Q'}};
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraR(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'R','R','R','R',' '},
+                          {'R',' ',' ',' ','R'},
+                          {'R','R','R','R',' '},
+                          {'R','R',' ',' ',' '},
+                          {'R',' ','R',' ',' '}};
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraS(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'S','S','S','S','S'},
+                          {'S',' ',' ',' ' ,' '},
+                          {'S','S','S','S','S'},
+                          {' ',' ',' ',' ','S'},
+                          {'S','S','S','S','S'}};
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraT(){
+        char [][] resp = new char[5][];
+        char[][]letraG = {{'T','T','T','T','T'},
+                          {' ',' ','T',' ',' '},
+                          {' ',' ','T',' ',' '},
+                          {' ',' ','T',' ',' '},
+                          {' ',' ','T',' ',' '}};
+        resp = letraG;
+        return resp;
+    }
+    public static char[][] letraU(){
+        char[][]letraU = {{'U',' ',' ',' ','U'},
+                          {'U',' ',' ',' ','U'},
+                          {'U',' ',' ',' ','U'},
+                          {'U',' ',' ',' ','U'},
+                          {'U','U','U','U','U'}};
+        return letraU;
+    }
+    public static char[][] letraV(){
+        char[][]letraV = {{'V',' ',' ',' ','V'},
+                          {'V',' ',' ',' ','V'},
+                          {' ','V',' ','V',' '},
+                          {' ',' ','V',' ',' '},
+                          {' ',' ','V',' ',' '}};
+        return letraV;
+    }
+    public static char[][] letraW(){
+        char[][]letraW = {{'W',' ',' ',' ','W'},
+                          {'W',' ',' ',' ','W'},
+                          {'W',' ','W',' ','W'},
+                          {'W','W',' ','W','W'},
+                          {'W',' ',' ',' ','W'}};
+        return letraW;
+    }
+    public static char[][] letraX(){
+        char[][]letraX = {{'X',' ',' ',' ','X'},
+                          {' ','X',' ','X',' '},
+                          {' ',' ','X',' ',' '},
+                          {' ','X',' ','X',' '},
+                          {'X',' ',' ',' ','X'}};
+        return letraX;
+    }
+    public static char[][] letraY(){
+        char[][]letraY = {{'Y',' ',' ',' ','Y'},
+                          {' ','Y',' ','Y',' '},
+                          {' ',' ','Y',' ',' '},
+                          {' ','Y',' ',' ',' '},
+                          {'Y',' ',' ',' ',' '}};
+        return letraY;
+    }
+    public static char[][] letraZ(){
+        char[][]letraZ = {{'Z','Z','Z','Z','Z'},
+                          {' ',' ',' ','Z',' '},
+                          {' ',' ','Z',' ',' '},
+                          {' ','Z',' ',' ',' '},
+                          {'Z','Z','Z','Z','Z'}};
+        return letraZ;
+    }
+    
+    
+    
 }
